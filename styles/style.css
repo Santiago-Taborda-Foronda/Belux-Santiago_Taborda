@@ -33,9 +33,11 @@ li{
     padding: 10px;
     width: 110px;
     height: 40px;
+    font-size: 17px;
     border-radius: 3%;
     cursor: pointer;
     border: none;
+    color: white;
 }
 .container-1{
     display: flex;
@@ -43,6 +45,7 @@ li{
     height: 570px;
 }
 .title{
+    font-size: 150%;
     background-color: rgba(21, 8, 56, 0.932);
     color: white;
     width: 50%;
@@ -53,18 +56,27 @@ h1{
 }
 .title-1{
     display: flex;
-    margin-top: -50px;
-    padding-left: 30%;
+    margin-top: 60px;
+    padding-left: 37%;
     flex-wrap: wrap;
+    flex-direction: column;
     justify-content: space-between;
 
 }
 .button-1{
+    border-color: #f3e8f259;
+    border-style: solid;
+    border-radius: 3%;
+    width: 312px;
+    padding: 5px;
     margin-top: 30px;
+    display: flex;
+    justify-content: space-evenly;
 }
 .button-2{
     color:  rgb(209, 15, 226);
     margin-right: 10px;
+    width: 50%;
     padding: 10px;
     height: 40px;
     border-radius: 5%;
@@ -74,7 +86,8 @@ h1{
 .button-3{
     background-color:  rgba(21, 8, 56, 0.63);
     color: white;
-    margin-right: 10px;
+    width: 50%;
+    margin-right: 0px; 
     padding: 10px;
     height: 40px;
     border-radius: 5%;
@@ -94,7 +107,7 @@ h1{
 }
 h2{
     font-size: 350%;
-    color: rgb(255, 6, 255);
+    color: rgb(236, 84, 236);
 }
 .container-2{
     text-align: center;
@@ -112,6 +125,7 @@ h2{
     width: 60%;
 }
 .alpha{
+    font-size: 140%;
     width: 45%;
     text-align: start;
 
@@ -137,7 +151,7 @@ h2{
     text-align: center; 
 }
 .box-t{
-    color: #eb33e1;
+    color: #ec76e6;
     font-size: 150%;
 }
 .box-t-2{
@@ -152,31 +166,32 @@ h3{
 .text-3{
     color: white;
     padding-top: 20px;
-    padding-left: 400px;
-    padding-right: 400px;
+    padding-left: 700px;
+    padding-right: 700px;
 }
 .box{
+    padding-top: 30px;
     display: flex;
-    margin-left: 200px;
-    margin-right: 200px;
-    justify-content: space-around;
+    margin-left: 100px;
+    margin-right: 100px;
+    justify-content: center;
 }
 .box-1{
-   width: 30%;
+   width: 20%;
    margin: 10px;
    text-align: center;
    border-radius: 2%;
    background-color: white;
 }
 .box-2{
-    width: 30%;
+    width: 20%;
    margin: 10px;
    text-align: center;
    border-radius: 2%;
    background-color: white;
 }
 .box-3{
-    width: 30%;
+    width: 20%;
    margin: 10px;
    text-align: center;
    border-radius: 2%;
@@ -191,7 +206,12 @@ span{
     background-color: rgb(232, 237, 241);
 }
 .lista{
+    text-align: start;
     padding-top: 20px;
+    padding-left: 25%;
+}
+.lista p{
+    padding: 10px;
 }
 .text-4{
     padding: 30px;
@@ -244,5 +264,62 @@ footer{
     border-radius: 60%;
     border: none;
     padding: 5px 7px;
-      
+}
+@media screen and (max-width: 1279px){
+.alpha{
+    font-size: 80%;
+}
+.text-3{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+}
+@media screen and (max-width: 920px){   
+.title-1{
+    font-size: 50%;
+}
+h1{
+    font-size: 500%;
+}
+.button-1{
+    width: 80%;
+}
+.alpha{
+    font-size: 80%;
+}
+.text-2{
+    padding-right: 100px;
+}
+.box-1{
+    width: 30%;
+}
+.box-2{
+    width: 30%;
+}
+.box-3{
+    width: 30%;
+}
+}
+@media screen and (max-width: 768px){
+.title-1{
+    padding-left: 20%;
+}
+.box{
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.box-1{
+    width: 70%;
+}
+.box-2{
+    width: 70%;
+}
+.box-3{
+    width: 70%;
+}
+.lista{
+    text-align: start;
+    padding-top: 20px;
+    padding-left: 10%;
+}
 }
