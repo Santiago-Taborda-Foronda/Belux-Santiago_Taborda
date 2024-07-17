@@ -323,10 +323,13 @@ h1{
     padding-left: 10%;
 }
 }
+@media screen and (max-width: 520px){
+
+}
 @media screen and (max-width: 480px){
 
 header{
-    width: 99%;
+    width: 474px;
     flex-direction: column;
     height: 1%;
 }
@@ -337,7 +340,7 @@ nav{
     height: 70px;
 }
 .container-1{
-    width: 99%;
+    width: 474px;
 }
 .container-z img{
     height: 50%;
@@ -349,13 +352,13 @@ h1{
 }
 .title-1{
     margin-top: 70px;
-    padding-left: 17%;
+    padding-left: 17px;
 }
 .title-1 p{
     padding-right: 10px;
 }
 .container-2{
-    width: 95%;
+    width: 450px;
 }
 .text-2{
     padding-top: 40px;
@@ -365,7 +368,7 @@ h1{
     margin-top: 80px;
 }
 .container-3{
-    width: 99%;
+    width: 474px;
 }
 .text-3{
     padding-left: 10px;
@@ -387,7 +390,7 @@ h1{
     width: 95%;
 }    
 footer{
-    width: 99%;
+    width: 474px;
 }
 }    
 
