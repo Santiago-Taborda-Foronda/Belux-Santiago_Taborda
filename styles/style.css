@@ -323,8 +323,11 @@ h1{
     padding-left: 10%;
 }
 }
-@media screen and (max-width: 520px){
-
+@media screen and (max-width: 550px){
+header{
+    flex-direction: column;
+    height: 1%;
+}
 }
 @media screen and (max-width: 480px){
 
